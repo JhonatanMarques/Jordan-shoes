@@ -1,0 +1,83 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+.faixa-header{
+    display: flex;
+    background-color: #181818;
+    justify-content: center;
+    padding: 15px;
+}
+.faixa-header p{
+    color: white;
+    margin: 0;
+    font-size: 13px;
+}
+.faixa-logo{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.banner{
+    background-image: url(imagens/banner-1.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 97%;
+
+    border: 0px;
+    padding:100px 0px 100px 40px;
+ 
+}
+.banner h3{
+    color: white;
+    margin: 0px;
+    font-size: 32px;
+
+}
+.banner p{
+    color: white;
+    font-size: 18px;
+}
+.secao-destaque{
+    display: flex;
+    justify-content: center;
+    padding:30px 0px 30px 0px;
+}
+.destaque{
+    text-align: center;
+}
+.destaque h2{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.destaque p{
+    margin-top: 0px;
+}
+.secao-produtos{
+    display: flex;
+    justify-content: center;
+
+}
+.produtos{
+    background-color: #EBE9EA;
+    margin: 20px;
+    padding: 50px 40px 50px 40px;
+}
+.rodape{
+    margin: 40px 0px 0px 0px;
+    background-color: #181818;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 15px 0px;
+}
+.rodape p{
+    margin: 0px;
+    color: white;
+    font-weight: 500;
+}
